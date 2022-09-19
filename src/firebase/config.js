@@ -6,12 +6,12 @@ import { getFirestore } from 'firebase/firestore/lite'
 
 
 const firebaseConfig = {
-  apiKey: process.env.VITE_APIKEY,
-  authDomain: process.env.VITE_AUTHDOMAIN,
-  projectId: process.env.VITE_PROJECTID,
-  storageBucket: process.env.VITE_STORAGEBUCKET,
-  messagingSenderId: process.env.VITE_MESSAGINGSENDERID,
-  appId: process.env.VITE_APPID
+  apiKey: process.env.apiKey,
+  authDomain: process.env.authDomain,
+  projectId: process.env.projectId,
+  storageBucket: process.env.storageBucke,
+  messagingSenderId: process.env.messagingSenderId,
+  appId: process.env.appId
 };
 
 

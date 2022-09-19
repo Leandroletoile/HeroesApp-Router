@@ -1,0 +1,79 @@
+.borderBlack {
+    filter: drop-shadow(0 0 2px rgb(243, 106, 106)) drop-shadow(6px 6px 0 rgb(243, 106, 106)) drop-shadow(-6px 6px 0 rgb(243, 106, 106)) drop-shadow(6px -6px 0 rgb(243, 106, 106));
+    -webkit-text-stroke: 3px black;
+}
+
+html {
+    cursor: url(/public/cursor6.png), auto;
+
+}
+
+.bgMove {
+    background-image: url(/public/nuevoFondo.png);
+    background-position: end;
+    background-attachment: fixed;
+    padding: 30px 0px;
+    border-radius: 25px;
+}
+
+.cursorKap {
+    cursor: url(/public/cursor2.png), auto;
+}
+
+body {
+    /* background-image: url(/public/fondo2.png);
+    background-position: center;
+    background-attachment: fixed; */
+    background-color: rgba(209, 214, 230)
+}
+
+a,
+button {
+    cursor: url(/public/cursor2.png), auto;
+    color: rgb(243, 106, 106);
+}
+
+button:hover {
+    cursor: url(/public/cursor2.png), auto;
+}
+
+.back {
+    background-color: white;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Castoro', serif;
+    font-family: 'Fugaz One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.back:hover {
+    background-color: rgb(243, 106, 106);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Castoro', serif;
+    font-family: 'Fugaz One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.bgblack {
+    background-color: black;
+    border: 4px solid rgb(243, 106, 106);
+    border-radius: 25px;
+}
+.maxWidth{
+    max-width: 60em;
+}
+
+.marginLeft{
+    margin-left: 15rem;
+    margin-right: 3rem;
+}

@@ -16,7 +16,7 @@ export const HeroCard = ({
 
 }) => {
 
-    console.log('hero cardd', counter);
+    // console.log('hero cardd', counter);
 
 
     const locVal = useLocation()

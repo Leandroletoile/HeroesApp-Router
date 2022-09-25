@@ -129,7 +129,7 @@ export const RegisterPage = () => {
             <p>&nbsp;</p>
             <div className="card">
               <div className="card-body">
-                <h3 className="text-center"><i class="bi bi-person-plus-fill"></i> Account</h3>
+                <h3 className="text-center"><i className="bi bi-person-plus-fill"></i> Account</h3>
                 <form onSubmit={onSubmit}>
                   <div className="form-group mb-4">
                     <label>Full name</label>
@@ -146,9 +146,9 @@ export const RegisterPage = () => {
                     <input value={password} name="password" onChange={onInputChange} type="password" className="form-control" />
                   </div>
                   <div className="d-flex justify-content-evenly">
-                    <button type="submit button" className="btn btn-outline-success">Create  <i class="bi bi-check"></i></button>
+                    <button type="submit button" className="btn btn-outline-success">Create  <i className="bi bi-check"></i></button>
                     <Link className="btn btn-outline-danger cursorKap" component={RouterLink} to="/auth/login">
-                      I have already  <i class="bi bi-arrow-bar-right"></i>
+                      I have already  <i className="bi bi-arrow-bar-right"></i>
                     </Link>
                   </div>
                 </form>

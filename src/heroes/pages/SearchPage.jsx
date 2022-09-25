@@ -40,6 +40,8 @@ export const SearchPage = () => {
   return (
     <>
       <h2 className="text-center mt-4 fuente borderBlack">Search</h2>
+
+
       <hr />
       <div className="row">
 

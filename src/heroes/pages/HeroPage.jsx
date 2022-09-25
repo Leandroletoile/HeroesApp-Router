@@ -18,20 +18,20 @@ export const HeroPage = () => {
   const { heroRedux, heroReduxById } = useSelector((state) => state.heroes);
 
 
-  const  locVal  = useLocation()
+  const locVal = useLocation()
 
-  console.log('herpoage location' , locVal);
+  console.log('herpoage location', locVal);
 
-  const {counter , setCounter} = useCounter()
+  const { counter, setCounter } = useCounter()
 
   useEffect(() => {
     setCounter(locVal.state)
   }, [])
-  
 
-  console.log('counter heropage' , counter);
 
-  
+  console.log('counter heropage', counter);
+
+
 
 
   useEffect(() => {
@@ -43,18 +43,18 @@ export const HeroPage = () => {
 
 
 
-    const navigate = useNavigate();
-  
+  const navigate = useNavigate();
+
 
   const onNavigateBack = () => {
 
-    
-   navigate(-1,{
-    state :{ 
-      hi: 'holis'
-    }
-   })
-    
+
+    navigate(-1, {
+      state: {
+        hi: 'holis'
+      }
+    })
+
   }
 
 

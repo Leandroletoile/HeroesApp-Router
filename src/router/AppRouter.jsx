@@ -5,6 +5,8 @@ import { AuthRoutes } from '../auth/routes/AuthRoutes'
 import { HeroesRoutes } from '../heroes/routes/HeroesRoutes'
 import { useCheckAuth } from '../hooks/useCheckAuth'
 
+
+
 export const AppRouter = () => {
 
   const { status } = useCheckAuth();

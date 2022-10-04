@@ -1,8 +1,6 @@
 import React from 'react'
-import { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { useCounter } from '../../hooks/useCounter';
-import { HeroesRoutes } from '../routes/HeroesRoutes';
+
 
 export const HeroCard = ({
     id,
@@ -15,8 +13,6 @@ export const HeroCard = ({
     counter,
 
 }) => {
-
-    // console.log('hero cardd', counter);
 
 
     const locVal = useLocation()

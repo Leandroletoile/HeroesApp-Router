@@ -15,6 +15,9 @@ export const startGoogleSignIn = () => {
         
         const result = await signInWithGoogle();
 
+        console.log(result);
+        
+
         console.log( 'tamos en thunks' , result);
 
         if(!result.ok) return dispatch(logout(result));

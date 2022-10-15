@@ -32,9 +32,6 @@ export const HeroByPublisherPage = () => {
     dispatch(getHeroReduxById(1))
   }, [heroRedux])
 
-  console.error( 'hero by publisher ' , import.meta.env.VITE_APIKEY); 
-
-  
 
   if (heroRedux.length === 0) return <LoadingPages />
 

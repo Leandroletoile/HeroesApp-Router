@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 export const HeroCard = ({
@@ -13,11 +13,6 @@ export const HeroCard = ({
     counter,
 
 }) => {
-
-
-    const locVal = useLocation()
-
-    console.log('herocard location', locVal);
 
 
     return (
@@ -38,7 +33,7 @@ export const HeroCard = ({
                                 </small>
                             </p> */}
 
-                            <Link to={`/hero/${id}`} state={counter}>
+                            <Link to={`/hero/${id}`}>
                                 Powerstats
                             </Link>
 
